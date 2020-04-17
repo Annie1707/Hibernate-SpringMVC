@@ -12,7 +12,7 @@
 <br>
 <br>
 
-<a href="showform">display hello world form</a>
+<a href="hello/showform">display hello world form</a>
 <br><br>
 
 <img src="${pageContext.request.contextPath}/resources/hello.png" />
