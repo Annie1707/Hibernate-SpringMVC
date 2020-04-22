@@ -12,5 +12,8 @@ The number of free passes are: ${customer.freePasses}
 <br>
 <br>
 Postal code: ${customer.postalCode }
+<br>
+<br>
+Course code: ${customer.courseCode }
 </body>
 </html>
