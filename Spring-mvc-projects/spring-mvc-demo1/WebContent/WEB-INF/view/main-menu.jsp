@@ -18,6 +18,9 @@
 <a href="student/showform">student form</a>
 <br><br>
 
+<a href="customer/showform">customer form</a>
+<br><br>
+
 <img src="${pageContext.request.contextPath}/resources/hello.png" />
 
 <br><br>
