@@ -19,8 +19,6 @@
 
 	<!-- Step 4: Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven/>
-	
-	
 
 	<!-- Step 5: Define Spring MVC view resolver -->
 	<bean
@@ -33,4 +31,8 @@
 	
 	<util:properties  id="countryOptions" location="classpath:../countries.properties" /> 
 
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames" value="resources/messages"/>
+	</bean>
 </beans>

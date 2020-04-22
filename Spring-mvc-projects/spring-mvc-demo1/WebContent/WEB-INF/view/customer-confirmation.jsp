@@ -6,5 +6,11 @@
 </head>
 <body>
 The customer is confirmed: ${customer.firstName } ${customer.lastName }
+<br>
+<br>
+The number of free passes are: ${customer.freePasses}
+<br>
+<br>
+Postal code: ${customer.postalCode }
 </body>
 </html>
