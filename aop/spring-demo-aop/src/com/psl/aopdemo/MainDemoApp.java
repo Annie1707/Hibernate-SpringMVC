@@ -13,10 +13,15 @@ public class MainDemoApp {
 		AccountDAO dao = context.getBean("accountDAO",AccountDAO.class);
 		MembershipDAO membershipDAO = context.getBean("membershipDAO",MembershipDAO.class);
 		
-		dao.addAccount();
-		System.out.println("running once again");
-		membershipDAO.addMember();;
-		
+		Account account = new Account();
+		dao.addAccount(account,true);
+		dao.getId();
+		dao.getName();
+		dao.setId(1);
+		dao.setName("anu");
+//		System.out.println("running once again");
+//		membershipDAO.cutMember();;
+//		membershipDAO.addAccount();
 		context.close();
 	}
 }
